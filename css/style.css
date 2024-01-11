@@ -624,7 +624,7 @@ a,a:hover
     position: relative;
     padding-top: 20px;
 }
-.single-work .work-overlay .work-content ul::before
+/* .single-work .work-overlay .work-content ul::before
 {
     position: absolute;
     content: '';
@@ -634,7 +634,7 @@ a,a:hover
     left: 50%;
     transform: translateX(-50%);
     top: 0;
-}
+} */
 .single-work .work-overlay .work-content ul li
 {
     display: inline-block;

@@ -84,4 +84,8 @@ $(document).ready(function()
         topOffset:-50
     })
     
+    var audio = new Audio('../happybirthday.mp3');
+    audio.play();
+    // audio.pause();
+    
 })
