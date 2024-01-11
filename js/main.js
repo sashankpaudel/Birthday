@@ -13,6 +13,13 @@ $(document).ready(function()
         }
     })
     // parallax js
+    // function parallaxMouse()
+    // {
+    //     var scene = document.getElementById('parallax');
+    //     var wScroll = $(window).scrollTop();
+
+        
+    // }
     function parallaxMouse()
     {
         if($('#parallax').length)
@@ -84,8 +91,11 @@ $(document).ready(function()
         topOffset:-50
     })
     
+    // var audio = new Audio('../happybirthday.mp3');
+    // audio.play();
+    
+})
+document.addEventListener('DOMContentLoaded', function(){
     var audio = new Audio('../happybirthday.mp3');
     audio.play();
-    // audio.pause();
-    
 })
