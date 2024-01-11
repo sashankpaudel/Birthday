@@ -9,8 +9,22 @@ $(document).ready(function () {
         }
     })
     // parallax js
+<<<<<<< HEAD
     function parallaxMouse() {
         if ($('#parallax').length) {
+=======
+    // function parallaxMouse()
+    // {
+    //     var scene = document.getElementById('parallax');
+    //     var wScroll = $(window).scrollTop();
+
+        
+    // }
+    function parallaxMouse()
+    {
+        if($('#parallax').length)
+        {
+>>>>>>> refs/remotes/origin/main
             var scene = document.getElementById('parallax');
             var parallax = new Parallax(scene);
         }
@@ -73,6 +87,7 @@ $(document).ready(function () {
     $.scrollIt({
         topOffset: -50
     })
+<<<<<<< HEAD
 
     var audio = new Audio('../happybirthday.mp3');
     audio.play();
@@ -80,3 +95,14 @@ $(document).ready(function () {
 
 })
 
+=======
+    
+    // var audio = new Audio('../happybirthday.mp3');
+    // audio.play();
+    
+})
+document.addEventListener('DOMContentLoaded', function(){
+    var audio = new Audio('../song/happybirthday.mp3');
+    audio.play();
+});
+>>>>>>> refs/remotes/origin/main
