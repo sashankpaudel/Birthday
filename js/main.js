@@ -98,4 +98,4 @@ $(document).ready(function()
 document.addEventListener('DOMContentLoaded', function(){
     var audio = new Audio('../song/happybirthday.mp3');
     audio.play();
-})
+});
